@@ -1,0 +1,49 @@
+/* @import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities"; */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.bg {
+  height: 365px;
+  background: linear-gradient(150.17deg, #ad6bff 0%, #74bcf7 100%);
+}
+
+.profile {
+  background: linear-gradient(150.17deg, #ad6bff 0%, #74bcf7 100%);
+  background-image: url(/img/profile-removebg.png);
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  background: #ffffff;
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  margin: -135px auto 1.55rem;
+}
+
+.content > h2 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.content a {
+  color: #74bcf7;
+  text-decoration: underline;
+  font-weight: 500;
+}
