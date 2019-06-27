@@ -29,18 +29,63 @@ export const IndexPageTemplate = ({
                   Hey, I'm Ethan Tran. I love to experiment and solve problems
                   with React.
                 </h1>
-                <h2>Portfolio</h2>
-                <h2>Experiments</h2>
-                <h2>Thoughts</h2>
-                <h2>Dance Monkey Dance!</h2>
+                <h2>Quick Links</h2>
                 <a
                   className="navbar-item"
-                  href="https://www.youtube.com/watch?v=81sOzZZgBwI"
+                  href="/docs/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  CHAIYA CHAIYA
+                  Resume
                 </a>
+                <h2>Portfolio</h2>
+                <p>WIP</p>
+                <h2>Experiments</h2>
+                <ul>
+                  <li>
+                    <a
+                      className="navbar-item"
+                      href="https://expo.io/@ethantran2/yoga-app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      "2,100 Asanas" into a Yoga App!
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="navbar-item"
+                      href="https://expo.io/@ethantran2/emotionsapp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      App for connecting with your emotions
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="navbar-item"
+                      href="https://expo.io/@ethantran2/react-native-examples"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Compilation of react native examples
+                    </a>
+                  </li>
+                </ul>
+                <h2>Thoughts</h2>
+                <p>WIP</p>
+                <h2>Dance Monkey Dance!</h2>
+                <p>
+                  <a
+                    className="navbar-item"
+                    href="https://www.youtube.com/watch?v=81sOzZZgBwI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    CHAIYA CHAIYA
+                  </a>
+                </p>
               </div>
             </div>
           </div>
