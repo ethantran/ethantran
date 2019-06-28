@@ -1,3 +1,2 @@
-import TagRoute from "../tags/TagRoute";
 export * from "../tags/TagRoute";
-export default TagRoute;
+export { default } from "../tags/TagRoute";
