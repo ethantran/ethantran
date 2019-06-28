@@ -1,2 +1,3 @@
 export * from "../../tags/TagsPage";
-export { default } from "../../tags/TagsPage";
+import TagsPage from "../../tags/TagsPage";
+export default TagsPage;
