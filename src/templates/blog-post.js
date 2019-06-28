@@ -1,1 +1,3 @@
-export * from "../blog/BlogPost";
+import BlogPost from "../blog/BlogPost";
+export * from "../landing/LandingPage";
+export default BlogPost;
