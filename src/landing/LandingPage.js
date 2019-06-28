@@ -1,8 +1,9 @@
 import React from "react";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 
-const IndexPage = () => (
+const LandingPage = () => (
   <Layout>
     <div>
       <div className="bg flex object-center content-center items-center justify-center">
@@ -85,4 +86,14 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default LandingPage;
+
+export const pageQuery = graphql`
+  query IndexPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      frontmatter {
+        title
+      }
+    }
+  }
+`;
