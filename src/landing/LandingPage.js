@@ -65,16 +65,29 @@ const LandingPage = () => (
                   <h2>Thoughts</h2>
                   <p>WIP</p>
                   <h2>Dance Monkey Dance!</h2>
-                  <p>
-                    <a
-                      className="navbar-item"
-                      href="https://www.youtube.com/watch?v=81sOzZZgBwI"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      CHAIYA CHAIYA
-                    </a>
-                  </p>
+                  <ul>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="https://www.youtube.com/watch?v=81sOzZZgBwI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        CHAIYA CHAIYA | Choreography by Lenin Arivukkadal
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="https://youtu.be/1oaKOJQRecQ?t=295"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        TXT - Crown | Esmeralda Ledesma Choreography | K-Pop
+                        Dance Dallas
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
