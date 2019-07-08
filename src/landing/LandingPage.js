@@ -34,6 +34,17 @@ const LandingPage = () => (
                     <li>
                       <a
                         className="navbar-item"
+                        href="https://expo.io/@ethantran2/boxingapp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        A boxing, muay thai, and mixed martial arts exercise
+                        app!
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="navbar-item"
                         href="https://expo.io/@ethantran2/yoga-app"
                         target="_blank"
                         rel="noopener noreferrer"
