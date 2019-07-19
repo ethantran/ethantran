@@ -80,11 +80,12 @@ const LandingPage = () => (
                     <li>
                       <a
                         className="navbar-item"
-                        href="https://www.youtube.com/watch?v=81sOzZZgBwI"
+                        href="https://www.youtube.com/watch?v=MIJoQfPcWec"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        CHAIYA CHAIYA | Choreography by Lenin Arivukkadal
+                        Kanaa - Othaiyadi Pathayila X Chinna Machan | Lenin
+                        Arivukkadal Choreography
                       </a>
                     </li>
                     <li>
@@ -96,6 +97,16 @@ const LandingPage = () => (
                       >
                         TXT - Crown | Esmeralda Ledesma Choreography | K-Pop
                         Dance Dallas
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="https://www.youtube.com/watch?v=81sOzZZgBwI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        CHAIYA CHAIYA | Choreography by Lenin Arivukkadal
                       </a>
                     </li>
                   </ul>
