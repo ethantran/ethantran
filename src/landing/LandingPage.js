@@ -31,6 +31,7 @@ const LandingPage = () => (
                   <p>WIP</p>
                   <h2>Experiments</h2>
                   <ul>
+                    <li><a className="navbar-item" href="https://plasticid.replit.app/" target="_blank" rel="noopener noreferrer">Plastic content estimator</a></li>
                     <li>
                       <a
                         className="navbar-item"
